@@ -6,3 +6,21 @@ fieldset {
 body {
     background: url("cherry.avif") no-repeat right top;
 }
+
+div {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3.5px solid rgb(7, 122, 168);
+    border-left: 3px solid rgba(154, 153, 153, 0.753);
+    animation: loader 5s ease-in-out 0s infinite normal; 
+}
+
+@keyframes loader {
+    from {
+        rotate: 0deg; 
+    }
+    to { 
+        rotate: 360deg;
+    }
+}
